@@ -27,7 +27,7 @@
 // console.log(nums[0], nums[nums.length - 1]);
 
 //add
-let players = ["sachin", "virat", "dhoni"];
+// let players = ["sachin", "virat", "dhoni"];
 // players.push("rohit");
 // console.log(players);
 // players.unshift("rohit");
@@ -75,18 +75,18 @@ let players = ["sachin", "virat", "dhoni"];
 // console.log(players.lastIndexOf("sachin"));
 
 // reverse
-// let players = ["sachin", "dhoni", "virat", "rohit", "raina", "jadeja"];
+let players = ["sachin", "dhoni", "virat", "rohit", "raina", "jadeja"];
 // console.log(players.reverse());
 
 // custom reverse
-// let result = [];
-// let length = players.length;
-// for (let i = 0; i < length; i++) {
-//   let lastValue = players.pop();
-//   result.push(lastValue);
-// }
+let result = [];
+let length = players.length;
+for (let i = 0; i < players.length; i++) {
+  let lastValue = players.pop();
+  result.push(lastValue);
+}
 
-// console.log(result);
+console.log(result);
 
 // sort
 // let players = [
